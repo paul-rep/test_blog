@@ -10,6 +10,7 @@ html {
   /* align-items: center; */
   min-height: 100vh;
   font-size: 1rem;
+  position: relative;
 }
 
 .App-link {

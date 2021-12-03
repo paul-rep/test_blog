@@ -5,7 +5,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const FooterContainer = styled.footer`
     display: flex;
-    padding-bottom: 20px; 
+    padding-bottom: 40px; 
     justify-items: center;
     justify-content: space-around;
     align-items: center;
