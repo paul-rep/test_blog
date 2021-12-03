@@ -19,7 +19,7 @@ const Container = styled.div<{ active?: boolean }>`
     position: relative;
     margin: 20px auto;
     width: 80%;
-    height: 70%;
+    /* height: 70%; */
     display: grid;
     grid-template-columns: calc(50% - 15px) calc(50% - 15px);
     grid-column-gap: 30px;
