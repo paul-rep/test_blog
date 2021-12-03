@@ -9,13 +9,18 @@ const FooterContainer = styled.footer`
     justify-items: center;
     justify-content: space-between;
     align-items: center;
-    @media (max-width: 1024px) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;  
+    /* @media (max-width: 1024px) {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
         z-index: 99;   
-    }
+    } */
 `;
 
 const LeftIconContainer = styled.div`
