@@ -5,7 +5,7 @@ import { searchUsers } from '../redux/appSlice';
 
 const SearchContainer = styled.div`
     height: auto;
-    max-width: 240px;
+    /* max-width: 240px; */
     color: #EEEEEE;
 `;
 
