@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Search from "./Search";
 
+import { useAppDispatch } from '../redux/hooks'
+import { selectUser,setShowPosts } from '../redux/appSlice';
 
 const HeaderContainer = styled.header`
     padding:30px;
@@ -23,6 +25,7 @@ const Logo = styled.div`
     font-size: 24px;
     line-height: 30px;
     display: flex;
+    cursor: pointer;
 `;
 
 const Button = styled.button`
@@ -43,10 +46,11 @@ const Button = styled.button`
 
 
 const Header = ({handleSort}) => {
+     const dispatch = useAppDispatch();
 
     return (
       <HeaderContainer>
-          <Logo>Lorem ipsum</Logo>
+          <Logo onClick={() => dispatch(setShowPosts(false))}>Lorem ipsum</Logo>
           <Button onClick={handleSort}>Sort users</Button>
           <Search />
       </HeaderContainer>

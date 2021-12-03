@@ -5,37 +5,42 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const FooterContainer = styled.footer`
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
     justify-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 99;  
-    /* @media (max-width: 1024px) {
+    @media (max-width: 1024px) {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
         z-index: 99;   
-    } */
+    }
 `;
 
 const LeftIconContainer = styled.div`
     display: flex;
+    align-items: center;
     cursor: pointer;
-    margin-left: 200px;
+    position: absolute;
+    left: 50px;
     @media (max-width: 1024px) {
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 `;
-const RightIconContainer = styled(LeftIconContainer)`
-    margin-right: 200px;
-    margin-left: 0;
+const RightIconContainer = styled.div`
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
     @media (max-width: 1024px) {
-        margin-right: 40px;
+        /* margin-right: 50px; */
     }
 `;
 
