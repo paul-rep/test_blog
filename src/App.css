@@ -1,0 +1,18 @@
+html {
+  font-size: 15px;
+}
+
+.App {
+  background-color: #12122D;
+  color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  min-height: 100vh;
+  font-size: 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
